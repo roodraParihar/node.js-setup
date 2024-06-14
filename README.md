@@ -1,26 +1,44 @@
 # node.js-setup
 node.js setup and it's important libraries
 
-## node.js Installation
 
-Step 1: Install Node.js
-Download: I visited the official Node.js website and downloaded the appropriate installer for my OS.
 
-Installation: Run the installer and follow the on-screen instructions.
+## Simple Node.js Project
 
-Verification: Open a terminal/command prompt and enter node -v and npm -v to confirm the installation.
+This is a simple Node.js project that sets up a basic web server to serve a static HTML file.
 
-Step 2: Set Up the Project
-Create Directory: created a directory for my Node.js project.
+### Prerequisites
 
-Navigate: I Use the terminal/command prompt to navigate to the project directory.
+- [Node.js](https://nodejs.org/) ( Node.js installation)
 
-Step 3: Start writting my code
-Create File: Inside my project i creaated directory, named app.js.
+### Project Structure
+node-server/
+│
+├── index.html
+├── package.json
+└── server.js
 
-console.log("Hii Roodra here , started learning node.js");
 
-Like I have started learning javascript concepts that would use In the node.js
+- `index.html`: The HTML file that will be served by the Node.js server.
+- `server.js`: The Node.js script that creates the web server.
+- `package.json`: The project configuration file.
+
+## Setup
+
+1. **Clone the Repository or Create the Project Directory**
+
+   ```sh
+   mkdir node-server
+   cd node-server
+
+2. **Initialize the Project**
+   npm init -y
+
+   
+
+
+
+
 
 
 # Important libraries
